@@ -1,6 +1,4 @@
-# Audiolibro
-Este código en Python tiene como objetivo principal leer un archivo de texto llamado 'libro.txt', imprimir su contenido y 
-luego generar un archivo de audio en formato MP3 utilizando el módulo gTTS.
+Este código en Python tiene como objetivo principal: 
 1. Lectura del Archivo:
 - Se utiliza un bloque try-except para manejar excepciones.
 - Intenta abrir el archivo 'libro.txt' en modo de lectura ('r') con codificación UTF-8.
@@ -21,5 +19,5 @@ El contenido se imprimirá incluso si hay un error al leer el archivo.
 4. Manejo de Errores:
 El código incluye manejo de errores para casos específicos, como la falta del archivo o cualquier otra excepción durante la lectura.
 
-Resumiendo, el código siguiente lee un archivo de texto, imprime su contenido y genera un archivo de audio en MP3 con el contenido del archivo de texto. 
+Resumiendo, el código siguiente lee un archivo de texto, imprime su contenido y genera un archivo de audio en MP3 utilizando el módulo gTTS con el contenido del archivo de texto. 
 Además, maneja posibles errores durante la lectura del archivo.
