@@ -12,13 +12,13 @@ luego generar un archivo de audio en formato MP3 utilizando el módulo gTTS.
 Imprime el contenido del archivo usando la función print. Este paso es opcional y se realiza solo con fines de verificación. 
 El contenido se imprimirá incluso si hay un error al leer el archivo.
 
-Generación de Audio:
+3. Generación de Audio:
 - Verifica si la variable textBook está definida en el ámbito local (es decir, si se pudo leer el archivo correctamente).
 - Si textBook está definido, utiliza el módulo gTTS para convertir el texto en voz.
 - La voz se genera en español ('es').
 - Guarda la salida de texto a voz en un archivo MP3 llamado 'audioBook.mp3'.
 
-Manejo de Errores:
+4. Manejo de Errores:
 El código incluye manejo de errores para casos específicos, como la falta del archivo o cualquier otra excepción durante la lectura.
 
 Resumiendo, el código siguiente lee un archivo de texto, imprime su contenido y genera un archivo de audio en MP3 con el contenido del archivo de texto. 
